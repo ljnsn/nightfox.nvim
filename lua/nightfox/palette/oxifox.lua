@@ -12,7 +12,7 @@ local palette = {
   red     = Shade.new("#DB6E89", "#FF4262", "#4B2234"),
   green   = Shade.new("#A5C261", "#51966B", "#4C674C"),
   yellow  = Shade.new("#D0D6B5", "#f9cb8c", "#A39E52"),
-  blue    = Shade.new("#214760", "#297BDE", "#455663"),
+  blue    = Shade.new("#297BDE", "#214760", "#455663"),
   magenta = Shade.new("#94558D", "#B200B2", "#8888C6"),
   cyan    = Shade.new("#0F9795", "#3592C4", "#73A7A7"),
   white   = Shade.new("#e0def4", "#e2e0f7", "#999999"),
@@ -65,7 +65,7 @@ local function generate_spec(pal)
     conditional = pal.red.base, -- Conditional and loop
     const       = pal.white.base,  -- Constants, imports and booleans
     dep         = spec.fg3,           -- Deprecated
-    field       = spec.fg1,      -- Field
+    field       = pal.white.base,      -- Field
     func        = pal.orange.bright,    -- Functions and Titles
     ident       = pal.yellow.base,      -- Identifiers
     keyword     = pal.red.base,   -- Keywords
@@ -76,7 +76,7 @@ local function generate_spec(pal)
     statement   = pal.red.base,   -- Statements
     string      = pal.cyan.dim,     -- Strings
     type        = pal.pink.bright,    -- Types
-    variable    = pal.white.dim,     -- Variables
+    variable    = spec.fg1,     -- Variables
   }
 
   spec.diag = {
