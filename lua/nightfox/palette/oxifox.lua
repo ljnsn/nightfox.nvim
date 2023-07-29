@@ -10,9 +10,9 @@ local meta = {
 local palette = {
   black   = Shade.new("#393552", "#716994", "#322e42"),
   red     = Shade.new("#DB6E89", "#FF4262", "#4B2234"),
-  green   = Shade.new("#A5C261", "#51966B", "#4C674C"),
+  green   = Shade.new("#BFDEBA", "#51966B", "#4C674C"),
   yellow  = Shade.new("#D0D6B5", "#f9cb8c", "#A39E52"),
-  blue    = Shade.new("#297BDE", "#214760", "#455663"),
+  blue    = Shade.new("#3068ac", "#214760", "#455663"),
   magenta = Shade.new("#94558D", "#B200B2", "#8888C6"),
   cyan    = Shade.new("#0F9795", "#3592C4", "#73A7A7"),
   white   = Shade.new("#e0def4", "#e2e0f7", "#999999"),
@@ -65,7 +65,7 @@ local function generate_spec(pal)
     conditional = pal.red.base, -- Conditional and loop
     const       = pal.white.base,  -- Constants, imports and booleans
     dep         = spec.fg3,           -- Deprecated
-    field       = pal.white.base,      -- Field
+    field       = pal.blue.base,      -- Field
     func        = pal.orange.bright,    -- Functions and Titles
     ident       = pal.yellow.base,      -- Identifiers
     keyword     = pal.red.base,   -- Keywords
@@ -94,7 +94,7 @@ local function generate_spec(pal)
   }
 
   spec.diff = {
-    add    = C(spec.bg1):blend(C(pal.green.base), 0.2):to_css(),
+    add    = C(spec.bg1):blend(C(pal.green.bright), 0.2):to_css(),
     delete = C(spec.bg1):blend(C(pal.red.bright), 0.2):to_css(),
     change = C(spec.bg1):blend(C(pal.blue.base), 0.2):to_css(),
     text   = C(spec.bg1):blend(C(pal.blue.base), 0.4):to_css(),
