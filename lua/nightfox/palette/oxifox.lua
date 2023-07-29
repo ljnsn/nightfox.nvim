@@ -33,7 +33,8 @@ local palette = {
   fg3     = "#6e6a86", -- Darker fg (line numbers, fold colums)
 
   sel0    = "#214760", -- Popup bg, visual selection bg
-  sel1    = "#BFDEBA", -- Popup sel bg, search bg
+  sel1    = "#63577d", -- Popup sel bg, search bg
+  -- sel1    = "#BFDEBA", -- Popup sel bg, search bg
 }
 
 local function generate_spec(pal)
@@ -58,7 +59,7 @@ local function generate_spec(pal)
     bracket     = spec.fg2,           -- Brackets and Punctuation
     builtin0    = pal.magenta.base,       -- Builtin variable
     builtin1    = pal.yellow.base,    -- Builtin type
-    builtin2    = pal.magenta.bright,  -- Builtin const
+    builtin2    = pal.red.base,  -- Builtin const
     builtin3    = pal.red.bright,     -- Not used
     comment     = pal.comment,        -- Comment
     conditional = pal.red.base, -- Conditional and loop
@@ -69,13 +70,13 @@ local function generate_spec(pal)
     ident       = pal.yellow.base,      -- Identifiers
     keyword     = pal.red.base,   -- Keywords
     number      = pal.pink.bright,    -- Numbers
-    operator    = spec.fg2,           -- Operators
+    operator    = pal.red.base,           -- Operators
     preproc     = pal.pink.bright,    -- PreProc
     regex       = pal.yellow.bright,  -- Regex
     statement   = pal.red.base,   -- Statements
     string      = pal.cyan.dim,     -- Strings
     type        = pal.pink.bright,    -- Types
-    variable    = pal.white.base,     -- Variables
+    variable    = pal.white.dim,     -- Variables
   }
 
   spec.diag = {
@@ -102,7 +103,7 @@ local function generate_spec(pal)
   spec.git = {
     add      = pal.green.bright,
     removed  = pal.red.bright,
-    changed  = pal.blue.base,
+    changed  = pal.yellow.bright,
     conflict = pal.orange.dim,
     ignored  = pal.blue.dim,
   }
