@@ -83,7 +83,7 @@ local function generate_spec(pal)
     error = pal.red.bright,
     warn  = pal.orange.base,
     info  = pal.cyan.bright,
-    hint  = pal.green.bright,
+    hint  = pal.green.base,
   }
 
   spec.diag_bg = {
