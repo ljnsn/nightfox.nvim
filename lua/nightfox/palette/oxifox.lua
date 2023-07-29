@@ -75,7 +75,7 @@ local function generate_spec(pal)
     regex       = pal.yellow.bright,  -- Regex
     statement   = pal.red.base,   -- Statements
     string      = pal.cyan.dim,     -- Strings
-    type        = pal.pink.bright,    -- Types
+    type        = pal.orange.bright,    -- Types
     variable    = spec.fg1,     -- Variables
   }
 
