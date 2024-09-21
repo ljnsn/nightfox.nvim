@@ -2,7 +2,7 @@ local C = require("nightfox.lib.color")
 local Shade = require("nightfox.lib.shade")
 
 local meta = {
-  name = "duskfox",
+  name = "oxifox",
   light = false,
 }
 
