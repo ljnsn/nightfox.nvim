@@ -80,6 +80,19 @@ themes {
     black "#444c5e"
     white "#abb1bb"
   }
+  oxifox {
+    bg "#214760"
+    fg "#C9CCCD"
+    red "#db6e89"
+    green "#bfdeba"
+    blue "#3068ac"
+    yellow "#d0d6b5"
+    magenta "#94558d"
+    orange "#f49810"
+    cyan "#0f9795"
+    black "#2f4264"
+    white "#cdcbe0"
+  }
   terafox {
     bg "#293e40"
     fg "#e6eaea"

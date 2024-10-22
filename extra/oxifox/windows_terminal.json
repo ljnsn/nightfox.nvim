@@ -1,0 +1,23 @@
+{
+    "name" : "oxifox",
+    "background" : "#172030",
+    "foreground" : "#C9CCCD",
+    "cursorColor": "#C9CCCD",
+    "selectionBackground": "#214760",
+    "black" : "#393552",
+    "blue" : "#3068ac",
+    "cyan" : "#0f9795",
+    "green" : "#bfdeba",
+    "purple" : "#94558d",
+    "red" : "#db6e89",
+    "white" : "#e0def4",
+    "yellow" : "#d0d6b5",
+    "brightBlack" : "#716994",
+    "brightBlue" : "#214760",
+    "brightCyan" : "#3592c4",
+    "brightGreen" : "#51966b",
+    "brightPurple" : "#b200b2",
+    "brightRed" : "#ff4262",
+    "brightWhite" : "#e2e0f7",
+    "brightYellow" : "#f9cb8c"
+}

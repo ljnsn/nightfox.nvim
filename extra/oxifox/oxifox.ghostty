@@ -1,0 +1,32 @@
+# Nightfox colors for Ghostty
+## name: oxifox
+## upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/oxifox/oxifox.ghostty
+
+background = #172030
+foreground = #C9CCCD
+selection-background = #214760
+selection-foreground = #C9CCCD
+cursor-color = #C9CCCD
+
+# normal
+palette = 0=#393552
+palette = 1=#db6e89
+palette = 2=#bfdeba
+palette = 3=#d0d6b5
+palette = 4=#3068ac
+palette = 5=#94558d
+palette = 6=#0f9795
+palette = 7=#e0def4
+
+# bright
+palette = 8=#716994
+palette = 9=#ff4262
+palette = 10=#51966b
+palette = 11=#f9cb8c
+palette = 12=#214760
+palette = 13=#b200b2
+palette = 14=#3592c4
+palette = 15=#e2e0f7
+
+# extended colors
+palette = 16=#f49810

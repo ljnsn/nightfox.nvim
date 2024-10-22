@@ -1,0 +1,26 @@
+# Nightfox Warp Colors
+# Style: oxifox
+# Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/oxifox/warp.yaml
+accent:     '#C9CCCD'
+background: '#172030'
+foreground: '#C9CCCD'
+details:    'darker'
+terminal_colors:
+  normal:
+    black:   '#393552'
+    red:     '#db6e89'
+    green:   '#bfdeba'
+    yellow:  '#d0d6b5'
+    blue:    '#3068ac'
+    magenta: '#94558d'
+    cyan:    '#0f9795'
+    white:   '#e0def4'
+  bright:
+    black:   '#716994'
+    red:     '#ff4262'
+    green:   '#51966b'
+    yellow:  '#f9cb8c'
+    blue:    '#214760'
+    magenta: '#b200b2'
+    cyan:    '#3592c4'
+    white:   '#e2e0f7'

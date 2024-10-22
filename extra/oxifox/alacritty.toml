@@ -1,0 +1,79 @@
+# Nightfox Alacritty Colors
+## name: oxifox
+## upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/oxifox/alacritty.toml
+
+[colors.primary]
+background = "#172030"
+foreground = "#C9CCCD"
+dim_foreground = "#cdcbe0"
+bright_foreground = "#eae8ff"
+
+[colors.cursor]
+text = "#C9CCCD"
+cursor = "#cdcbe0"
+
+[colors.vi_mode_cursor]
+text = "#C9CCCD"
+cursor = "#0f9795"
+
+[colors.search.matches]
+foreground = "#C9CCCD"
+background = "#63577d"
+
+[colors.search.focused_match]
+foreground = "#C9CCCD"
+background = "#bfdeba"
+
+[colors.footer_bar]
+foreground = "#C9CCCD"
+background = "#2f4264"
+
+[colors.hints.start]
+foreground = "#C9CCCD"
+background = "#f49810"
+
+[colors.hints.end]
+foreground = "#C9CCCD"
+background = "#2f4264"
+
+[colors.selection]
+text = "#C9CCCD"
+background = "#214760"
+
+[colors.normal]
+black = "#393552"
+red = "#db6e89"
+green = "#bfdeba"
+yellow = "#d0d6b5"
+blue = "#3068ac"
+magenta = "#94558d"
+cyan = "#0f9795"
+white = "#e0def4"
+
+[colors.bright]
+black = "#716994"
+red = "#ff4262"
+green = "#51966b"
+yellow = "#f9cb8c"
+blue = "#214760"
+magenta = "#b200b2"
+cyan = "#3592c4"
+white = "#e2e0f7"
+
+[colors.dim]
+black = "#322e42"
+red = "#742a3a"
+green = "#4c674c"
+yellow = "#a39e52"
+blue = "#455663"
+magenta = "#8888c6"
+cyan = "#73a7a7"
+white = "#999999"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#f49810"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#b87ea2"

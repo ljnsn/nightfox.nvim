@@ -1,0 +1,21 @@
+! Nightfox colors for Xresources
+! Style: oxifox
+! Upstream: https://github.com/edeneast/nightfox.nvim/raw/main/extra/oxifox/oxifox.Xresources
+*background: #172030
+*foreground: #C9CCCD
+*color0:  #393552
+*color1:  #db6e89
+*color2:  #bfdeba
+*color3:  #d0d6b5
+*color4:  #3068ac
+*color5:  #94558d
+*color6:  #0f9795
+*color7:  #e0def4
+*color8:  #716994
+*color9:  #ff4262
+*color10: #51966b
+*color11: #f9cb8c
+*color12: #214760
+*color13: #b200b2
+*color14: #3592c4
+*color15: #e2e0f7
